@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/garage/static/css/main.ca63aa9f.css",
+    "main.js": "/garage/static/js/main.aeeff0c8.js",
+    "static/js/488.9542488f.chunk.js": "/garage/static/js/488.9542488f.chunk.js",
+    "index.html": "/garage/index.html",
+    "main.ca63aa9f.css.map": "/garage/static/css/main.ca63aa9f.css.map",
+    "main.aeeff0c8.js.map": "/garage/static/js/main.aeeff0c8.js.map",
+    "488.9542488f.chunk.js.map": "/garage/static/js/488.9542488f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca63aa9f.css",
+    "static/js/main.aeeff0c8.js"
+  ]
+}
