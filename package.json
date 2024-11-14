@@ -2,6 +2,7 @@
   "name": "cochera",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://maurodepascali.github.io/garage",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@googlemaps/google-maps-services-js": "^3.4.0",
@@ -11,6 +12,7 @@
     "@mantine/dates": "^7.13.4",
     "@mapbox/mapbox-gl-geocoder": "^5.0.3",
     "@material-ui/core": "^4.12.4",
+    "@mui/material": "^6.1.7",
     "cochera": "file:",
     "cra-template": "1.2.0",
     "date-fns": "^4.1.0",
@@ -33,7 +35,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -55,6 +59,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.2.0",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.14"
   }
