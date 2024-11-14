@@ -2,7 +2,7 @@
   "name": "cochera",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://maurodepascali.github.io/garage",
+  "homepage": "https://maurodepascali.github.io/garage/",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@googlemaps/google-maps-services-js": "^3.4.0",
